@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto</title>
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+
+    .contact{
+      height:80vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      padding:20px;
+    }
+
+    form{
+      width:100%;
+      max-width:600px;
+      background:#1e293b;
+      padding:40px;
+      border-radius:20px;
+    }
+
+    form h2{
+      margin-bottom:20px;
+      text-align:center;
+    }
+
+    input, textarea{
+      width:100%;
+      padding:15px;
+      margin:10px 0;
+      border:none;
+      border-radius:10px;
+    }
+
+    button{
+      width:100%;
+      padding:15px;
+      border:none;
+      background:#38bdf8;
+      color:white;
+      border-radius:10px;
+      cursor:pointer;
+      transition:0.4s;
+    }
+
+    button:hover{
+      background:white;
+      color:#0f172a;
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+<div class="bg-animation"></div>
+
+<nav>
+  <h1>CONTACTO</h1>
+
+  <ul>
+    <li><a href="index.html">Inicio</a></li>
+  </ul>
+</nav>
+
+<section class="contact">
+
+<form>
+
+  <h2>Contáctanos</h2>
+
+  <input type="text" placeholder="Nombre">
+  <input type="email" placeholder="Correo">
+  <textarea rows="5" placeholder="Mensaje"></textarea>
+
+  <button>Enviar</button>
+
+</form>
+
+</section>
+
+</body>
+</html>
